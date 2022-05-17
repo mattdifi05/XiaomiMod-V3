@@ -75,7 +75,8 @@ hr {background-color: var(--hr); border: 2px solid var(--border-1);}
 ::-webkit-scrollbar-thumb {background: var(--webkit-scrollbar-thumb);}
 
 @media (max-width: 850px) {
-    .menu {background: var(--color-primary); border: 3px solid var(--border-1);}}
+    .menu {background: var(--color-primary); border: 3px solid var(--border-1);}
+  }
 
   .theme-light {
   }
