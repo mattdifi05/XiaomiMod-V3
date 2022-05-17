@@ -2,6 +2,10 @@
 body {background: var(--body);}
 a {color: var(--p);}
 p {color: var(--p);}
+.img-guide {border: 3px solid var(--p);}
+.video-guide {border: 3px solid var(--p);}
+.img-guide-vertical {border: 3px solid var(--p);}
+.a-guide-alioth {color: var(--cta-border-alioth);}
 .download-rom {color: var(--cta-border-alioth)}
 .header{background: var(--color-primary); border: 3px solid var(--border-1);}
 .menu li a{color: var(--font-color);}

@@ -2,6 +2,7 @@
 body {
 	transition-duration: 0.2s;
 	font-family: 'Inter', sans-serif;
+	user-select: none;
 }
 
 a {
@@ -29,6 +30,32 @@ hr {
 }
 
 /*elements*/
+.img-guide {
+	border-radius: 16px;
+	width: 20%;
+	margin-left: 2%;
+}
+
+.img-guide-vertical {
+	border-radius: 16px;
+	width: 14%;
+	margin-left: 2%;
+}
+
+.video-guide {
+	border-radius: 16px;
+	width: 40%;
+	margin-left: 2%;
+}
+
+.guide-text {
+	font-family: 'Secular One', sans-serif;
+	padding: 2%;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+}
+
 .contacts-img {
 	width: 50%;
 }
@@ -1116,6 +1143,18 @@ label {
 
 @media (max-width: 1020px) {
 
+	.img-guide {
+		display: none;
+	}
+
+	.video-guide {
+		display: none;
+	}
+
+	.img-guide-vertical {
+		display: none;
+	}
+
 	.group-flex-main-menu {
 		flex-basis: 28%;
 	}
@@ -1246,6 +1285,10 @@ label {
 
 	a {
 		cursor: none;
+	}
+
+	.guide-text {
+		font-size: 16px;
 	}
 
 	.title {
