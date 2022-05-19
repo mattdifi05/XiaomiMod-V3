@@ -11,29 +11,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Secular+One&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="../images/favicon.png" type="image/png" />
-    <link rel="stylesheet" href="../css/theme.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/theme.js"></script>
-    <script src="../js/menu.js"></script>
+    <link rel="icon" href="../../images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="../../css/theme.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/theme.js"></script>
+    <script src="../../js/menu.js"></script>
     <title>XiaomiMod</title>
 </head>
 
 <body>
     <div class="header">
         <div class="logo">
-            <a href="../index.html"><img src="../images/logo.png"></a>
+            <a href="../../index.html"><img src="../../images/logo.png"></a>
         </div>
         <!--  <button onclick="toggleTheme()" class="theme-button">CHANGE THEME</button>  -->
         <ul class="menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a class="menu-hover" href="#">Guide</a></li>
+            <li><a class="menu-hover" href="../../index.html">Home</a></li>
+            <li><a href="../guide.html">Guide</a></li>
             <div class="contacts-mobile">
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="../contacts.html">Contacts</a></li>
             </div>
         </ul>
         <div class="cta">
-            <a href="contacts.html" class="button">Contacts</a>
+            <a href="../contacts.html" class="button">Contacts</a>
         </div>
         <div class="hamburger">
             <span></span>
@@ -52,7 +52,7 @@
                     <label for="touch-xiaomi"><span>XIAOMI</span></label>
                     <input type="checkbox" id="touch-xiaomi">
                     <ul class="slide-xiaomi">
-                        <a href="devices/alioth.html">
+                        <a href="#">
                             <li>MI 11X</li>
                         </a>
                     </ul>
@@ -62,7 +62,7 @@
                     <label for="touch-redmi"><span>REDMI</span></label>
                     <input type="checkbox" id="touch-redmi">
                     <ul class="slide-redmi">
-                        <a href="devices/alioth.html">
+                        <a href="#">
                             <li>Redmi K40</li>
                         </a>
                     </ul>
@@ -72,7 +72,7 @@
                     <label for="touch-poco"><span>POCO</span></label>
                     <input type="checkbox" id="touch-poco">
                     <ul class="slide-poco">
-                        <a href="devices/alioth.html">
+                        <a href="#">
                             <li>POCO F3</li>
                         </a>
                     </ul>
@@ -80,28 +80,13 @@
             </div>
             <div class="group-flex-main-home">
                 <div class="group-home-1">
-                    <p class="title">DRIVERS</p>
-                    <div class="group-flex">
-                        <div class="group-2-flex-50">
-                            <div class="group-flex-content">
-                                <p class="text-index">ADB Driver</p>
-                                <p class="text-description">Install</p>
-                                <hr>
-                                <div class="button">
-                                    <a href="guide-drivers/guide-adb-driver.html">Guide</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="group-2-flex-50">
-                            <div class="group-flex-content">
-                                <p class="text-index">Fastboot Driver</p>
-                                <p class="text-description">Install</p>
-                                <hr>
-                                <div class="button">
-                                    <a href="guide-drivers/guide-fastboot-driver.html">Guide</a>
-                                </div>
-                            </div>
-                        </div>
+                    <p class="title">Fastboot Driver</p>
+                    <div class="group-home-2">
+                        <p class="guide-text">1. <a class="a-guide" href="https://forum.xda-developers.com/attachment.php?attachmentid=4623157&d=1540039037" target="_blank">Download</a> Fastboot Drivers and extract them;</p>
+                        <p class="guide-text">2. Always press "y" and install the drivers;</p>
+                        <p class="guide-text">3. <a class="a-guide" href="https://developer.android.com/studio/releases/platform-tools" target="_blank">Download</a> Platform-tools and extract them;</p>
+                        <p class="guide-text">4. Move the files in the folder to "C:\adb";</p>
+                        <p class="guide-text">5. Finish!</p>
                     </div>
                 </div>
             </div>
