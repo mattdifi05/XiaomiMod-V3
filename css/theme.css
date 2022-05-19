@@ -85,6 +85,37 @@ hr {background-color: var(--hr); border: 2px solid var(--border-1);}
   }
 
   .theme-light {
+    --p: #fff;
+    --introduction: #fff;
+    --color-primary: #0d0d0d;
+    --hr: #1a1a1a;
+    --font-color: #fff;
+	--menu-hover: #333333;
+    --group-flex-main-menu: #1a1a1a;
+    --body: #262626;
+    --slide-xiaomi-a: #fff;
+    --slide-xiaomi-li-hover: #4d4d4d;
+    --menu-devices-xiaomi: #333333;
+    --menu-devices-xiaomi-span: #262626;
+    --menu-devices-xiaomi-mobile: #404040;
+    --menu-devices-xiaomi-span-text: #fff;
+    --box-shadow: #1a1a1a;
+    --theme-button: #1a1a1a;
+    --theme-button-text: #fff;
+    --theme-button-text-border: #333333;
+    --group-home-1: #333333;
+    --group-home-2: #262626;
+    --group-2-flex-33: #262626;
+    --button: #ff6900;
+    --border-1: #333333;
+    --border-2: #404040;
+    --cta: #1a1a1a;
+    --cta-border: #ff6900;
+    --cta-border-alioth: #fad32b;
+    --cta-hover: #262626;
+    --button-hover: #0d0d0d;
+    --webkit-scrollbar-track: #404040;
+    --webkit-scrollbar-thumb: #1a1a1a;
   }
 
 
