@@ -4,7 +4,7 @@
         document.documentElement.className = themeName;
     }
 
-
+/*
 // function to toggle between light and dark theme
     function toggleTheme() {
         if (localStorage.getItem('theme') === 'theme-dark') {
@@ -12,7 +12,7 @@
         } else {
             setTheme('theme-dark');
         }
-    }  
+    }
 
 // Immediately invoked function to set the theme on initial load
     (function () {
@@ -26,3 +26,12 @@
             setTheme('theme-light');
         }
     })();
+*/
+
+function toggleTheme() {
+    setTheme('theme-dark');
+}
+
+(function () {
+    setTheme('theme-dark');
+})();
