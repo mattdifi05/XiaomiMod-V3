@@ -42,6 +42,12 @@ hr {
 	margin-left: 2%;
 }
 
+.img-guide-vertical-2 {
+	border-radius: 16px;
+	width: 11%;
+	margin-left: 2%;
+}
+
 .video-guide {
 	border-radius: 16px;
 	width: 40%;
@@ -1152,6 +1158,10 @@ label {
 	}
 
 	.img-guide-vertical {
+		display: none;
+	}
+
+	.img-guide-vertical-2 {
 		display: none;
 	}
 
