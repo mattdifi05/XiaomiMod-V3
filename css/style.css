@@ -3,15 +3,18 @@ body {
 	transition-duration: 0.2s;
 	font-family: 'Inter', sans-serif;
 	user-select: none;
+	background: #262626;
 }
 
 a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 p {
 	transition-duration: 0.2s;
+	color: #fff;
 }
 
 hr {
@@ -19,14 +22,36 @@ hr {
 	height: 8px;
 	margin: 20px;
 	border-radius: 8px;
+	background-color: #1a1a1a;
+	border: 2px solid #333333;
+}
+
+.download-rom {
+	color: #fad32b;
+}
+
+.download-text {
+	color: #fff;
+}
+
+.a-guide-alioth {
+	color: #fad32b;
+}
+
+.a-guide {
+	color: #ff6900;
 }
 
 .hr-mobile {
 	display: none;
+	background-color: #1a1a1a;
+	border: 2px solid #333333;
 }
 
 .hr-menu {
 	margin: 0px 20px;
+	background-color: #1a1a1a;
+	border: 2px solid #333333;
 }
 
 /*elements*/
@@ -34,24 +59,28 @@ hr {
 	border-radius: 16px;
 	width: 20%;
 	margin-left: 2%;
+	border: 3px solid #fff;
 }
 
 .img-guide-vertical {
 	border-radius: 16px;
 	width: 14%;
 	margin-left: 2%;
+	border: 3px solid #fff;
 }
 
 .img-guide-vertical-2 {
 	border-radius: 16px;
 	width: 11%;
 	margin-left: 2%;
+	border: 3px solid #fff;
 }
 
 .video-guide {
 	border-radius: 16px;
 	width: 40%;
 	margin-left: 2%;
+	border: 3px solid #fff;
 }
 
 .guide-text {
@@ -73,6 +102,7 @@ hr {
 	text-align: center;
 	letter-spacing: 1px;
 	line-height: 60px;
+	color: #fff;
 }
 
 .title {
@@ -105,6 +135,14 @@ hr {
 	display: none;
 }
 
+::-webkit-scrollbar-track {
+	background: #404040;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #1a1a1a;
+}
+
 /* ----- HEADER ----- */
 .header {
 	transition-duration: 0.2s;
@@ -114,6 +152,8 @@ hr {
 	text-align: right;
 	padding: 18px;
 	z-index: 1;
+	background: #0d0d0d;
+	border: 3px solid #333333;
 }
 
 .logo img {
@@ -145,14 +185,17 @@ hr {
 	padding: 16px 20px;
 	display: block;
 	transition-duration: 0.2s;
+	color: #fff;
 }
 
 .menu li a:hover {
 	transition-duration: 0.2s;
+	background: #333333;
 }
 
 .menu-hover {
 	border-radius: 16px;
+	background: #333333;
 }
 
 .hamburger {
@@ -177,6 +220,8 @@ hr {
 	font-weight: bold;
 	padding: 13px 22px;
 	transition-duration: 0.2s;
+	background: #1a1a1a;
+	border: 3px solid #ff6900;
 }
 
 .cta a:hover {
@@ -191,10 +236,14 @@ hr {
 	font-weight: bold;
 	padding: 13px 22px;
 	transition-duration: 0.2s;
+	background: #1a1a1a;
+	border: 3px solid #fad32b;
 }
 
 .cta-alioth a:hover {
 	transition-duration: 0.2s;
+	background: #262626;
+	background: #262626;
 }
 
 .button {
@@ -210,6 +259,8 @@ hr {
 	padding: 7px 12px;
 	transition-duration: 0.2s;
 	font-size: 25px;
+	background: #1a1a1a;
+	border: 3px solid #ff6900;
 }
 
 .button-alioth a {
@@ -217,30 +268,18 @@ hr {
 	padding: 7px 12px;
 	transition-duration: 0.2s;
 	font-size: 25px;
+	background: #1a1a1a;
+	border: 3px solid #fad32b;
 }
 
 .button a:hover {
 	transition-duration: 0.2s;
+	background: #0d0d0d;
 }
 
 .button-alioth a:hover {
 	transition-duration: 0.2s;
-}
-
-.theme-button {
-	transition-duration: 0.2s;
-	width: 100px;
-	margin-left: 30px;
-	border-radius: 30px;
-	cursor: pointer;
-	padding-left: 10px;
-	padding-right: 10px;
-	font-family: 'Kanit', sans-serif;
-	line-height: 15px;
-}
-
-.theme-button:hover {
-	transition-duration: 0.2s;
+	background: #0d0d0d;
 }
 
 /* ----- GROUP ----- */
@@ -249,6 +288,8 @@ hr {
 	margin: 10px;
 	border-radius: 16px;
 	padding: 40px;
+	background: #333333;
+	border: 3px solid #404040;
 }
 
 .group-home-2 {
@@ -257,6 +298,8 @@ hr {
 	padding: 30px;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 /* --- FLEX --- */
@@ -288,10 +331,14 @@ hr {
 	flex-basis: 25%;
 	padding: 40px;
 	border-radius: 0px 0px 16px 0px;
+	background: #1a1a1a;
+	border: 3px solid #333333;
 }
 
 .group-flex-main-menu-mobile {
 	display: none;
+	background: #333333;
+	border: 3px solid #404040;
 }
 
 .group-flex-main-home {
@@ -300,6 +347,7 @@ hr {
 	padding: 20px;
 	flex-wrap: wrap;
 	display: felx;
+	background: #262626;
 }
 
 .group-flex-content {
@@ -333,6 +381,8 @@ hr {
 	margin: 5px;
 	border-radius: 16px;
 	padding: 50px;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 .group-2-flex-50 {
@@ -341,6 +391,8 @@ hr {
 	margin: 5px;
 	border-radius: 16px;
 	padding: 50px;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 .group-2-flex-50-rom {
@@ -349,6 +401,8 @@ hr {
 	margin: 5px;
 	border-radius: 16px;
 	padding: 50px;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 .group-2-flex-33-contacts {
@@ -357,13 +411,21 @@ hr {
 	margin: 5px;
 	border-radius: 16px;
 	padding: 50px;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 .group-2-flex-33-devices {
 	display: none;
+	background: #262626;
+	border: 3px solid #404040;
 }
 
 /*elements*/
+.group-flex-main-menu p{
+	color: #fff;
+}
+
 .group-flex-2 p {
 	transition-duration: 0.2s;
 	display: flex;
@@ -379,12 +441,22 @@ hr {
 	font-size: 20px;
 	text-align: center;
 	transition-duration: 0.2s;
+	color: #fff;
 }
 
 .group-2-flex-50-rom h1 {
 	font-size: 20px;
 	text-align: center;
 	transition-duration: 0.2s;
+	color: #fff;
+}
+
+.group-2-flex-50 h2{
+	color: #fff;
+}
+
+.group-2-flex-50-rom h2{
+	color: #fff;
 }
 
 .group-2-flex-33 p {
@@ -431,6 +503,7 @@ label {
 .slide-xiaomi a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-xiaomi li {
@@ -458,6 +531,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #333333;
+	border: 3px solid #333333;
 }
 
 .menu-devices-xiaomi span {
@@ -468,6 +543,7 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626; color: #fff;
 }
 
 .menu-devices-xiaomi span::after {
@@ -490,6 +566,7 @@ label {
 .slide-xiaomi-mobile a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-xiaomi-mobile li {
@@ -517,6 +594,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #404040;
+	border: 3px solid #404040;
 }
 
 .menu-devices-xiaomi-mobile span {
@@ -527,6 +606,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-xiaomi-mobile span::after {
@@ -549,6 +630,7 @@ label {
 .slide-redmi a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-redmi li {
@@ -576,6 +658,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #333333;
+	border: 3px solid #333333;
 }
 
 .menu-devices-redmi span {
@@ -586,6 +670,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-redmi span::after {
@@ -608,6 +694,7 @@ label {
 .slide-redmi-mobile a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-redmi-mobile li {
@@ -635,6 +722,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #404040;
+	border: 3px solid #404040;
 }
 
 .menu-devices-redmi-mobile span {
@@ -645,6 +734,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;}
 }
 
 .menu-devices-redmi-mobile span::after {
@@ -667,6 +758,7 @@ label {
 .slide-poco a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-poco li {
@@ -694,6 +786,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #333333;
+	border: 3px solid #333333;
 }
 
 .menu-devices-poco span {
@@ -704,6 +798,8 @@ label {
 	font-weight: 400;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-poco span::after {
@@ -726,6 +822,7 @@ label {
 .slide-poco-mobile a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-poco-mobile li {
@@ -753,6 +850,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #404040;
+	border: 3px solid #404040;
 }
 
 .menu-devices-poco-mobile span {
@@ -763,6 +862,8 @@ label {
 	font-weight: 400;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-poco-mobile span::after {
@@ -814,6 +915,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #333333;
+	border: 3px solid #333333;
 }
 
 .menu-devices-download span {
@@ -824,6 +927,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-download span::after {
@@ -846,6 +951,7 @@ label {
 .slide-download-mobile a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-download-mobile li {
@@ -873,6 +979,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #404040;
+	border: 3px solid #404040;
 }
 
 .menu-devices-download-mobile span {
@@ -883,6 +991,8 @@ label {
 	font-weight: 400;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-download-mobile span::after {
@@ -932,6 +1042,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #333333;
+	border: 3px solid #333333;
 }
 
 .menu-devices-guide span {
@@ -942,6 +1054,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-guide span::after {
@@ -964,6 +1078,7 @@ label {
 .slide-guide-mobile a {
 	transition-duration: 0.2s;
 	text-decoration: none;
+	color: #fff;
 }
 
 .slide-guide-mobile li {
@@ -991,6 +1106,8 @@ label {
 	transition-duration: 0.2s;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	background: #404040;
+	border: 3px solid #404040;
 }
 
 .menu-devices-guide-mobile span {
@@ -1001,6 +1118,8 @@ label {
 	font-weight: 400;
 	display: block;
 	border-radius: 16px;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-guide-mobile span::after {
@@ -1244,6 +1363,8 @@ label {
 		height: auto;
 		padding: 0px;
 		width: auto;
+		background: #0d0d0d;
+		border: 3px solid #333333;
 	}
 
 	.menu li {
@@ -1279,6 +1400,7 @@ label {
 		display: block;
 		margin-bottom: 5px;
 		border-radius: 3px;
+		background: #fff;
 	}
 
 	.menu--open {
