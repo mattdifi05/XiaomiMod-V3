@@ -1139,7 +1139,7 @@ label {
 }
 
 
-@media (max-width: 1387px) {
+@media (max-width: 1395px) {
 	.devices-flex img {
 		width: 220px;
 		transition-duration: 0.2s;
@@ -1233,7 +1233,7 @@ label {
 	}
 }
 
-@media (max-width: 1135px) {
+@media (max-width: 1143px) {
 	.devices-flex img {
 		width: 160px;
 		transition-duration: 0.2s;
