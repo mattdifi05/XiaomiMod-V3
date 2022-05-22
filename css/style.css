@@ -1,286 +1,69 @@
-/*STRUCTURE*/
-body {
-	transition-duration: 0.2s;
-	font-family: 'Inter', sans-serif;
-	user-select: none;
-	background: #262626;
-}
+/* STRUCTURE */
+body {transition-duration: 0.2s; font-family: 'Inter', sans-serif; user-select: none; background: #262626;}
+a {transition-duration: 0.2s; text-decoration: none; color: #fff;}
+p {transition-duration: 0.2s; color: #fff;}
+hr {transition-duration: 0.2s; height: 8px; margin: 20px; border-radius: 8px; background-color: #1a1a1a; border: 2px solid #333333;}
+.hr-mobile {display: none; background-color: #1a1a1a; border: 2px solid #333333;}
+.hr-menu {margin: 0px 20px; background-color: #1a1a1a; border: 2px solid #333333;}
 
-a {
-	transition-duration: 0.2s;
-	text-decoration: none;
-	color: #fff;
-}
+/* scrollbar */
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-button {display: none;}
+::-webkit-scrollbar-track {background: #404040;}
+::-webkit-scrollbar-thumb {background: #1a1a1a;}
 
-p {
-	transition-duration: 0.2s;
-	color: #fff;
-}
+/* text */
+.introduction { transition-duration: 0.2s; font-family: 'Secular One', sans-serif; font-size: 30px; text-align: center; letter-spacing: 1px; line-height: 60px; color: #fff;}
+.title {text-align: center; font-weight: bold; font-family: 'Secular One', sans-serif; letter-spacing: 1px; font-size: 25px; padding: 10px; line-height: 30px;}
+.guide-text {font-family: 'Secular One', sans-serif; padding: 2%; font-size: 20px; line-height: 25px; letter-spacing: 0.5px;}
+.text-description {font-size: 18px; line-height: 20px; margin-top: 10px;}
+.download-rom {font-size: 20px; margin: 10px;}
+.download-rom {color: #fad32b;}
+.download-text {color: #fff;}
 
-hr {
-	transition-duration: 0.2s;
-	height: 8px;
-	margin: 20px;
-	border-radius: 8px;
-	background-color: #1a1a1a;
-	border: 2px solid #333333;
-}
+/* link */
+.a-guide {color: #ff6900;}
+.a-guide-alioth {color: #fad32b;}
+.a-guide-renoir {color: #66ffff;}
 
-.download-rom {
-	color: #fad32b;
-}
+/* button */
+.cta a {margin-left: 30px; border-radius: 16px; margin-top: 2px; display: block; font-weight: bold; padding: 13px 22px; transition-duration: 0.2s; background: #1a1a1a; border: 3px solid #ff6900;}
+.cta a:hover {transition-duration: 0.2s; background: #262626;}
+.button {text-align: center;}
+.button a {border-radius: 16px; padding: 7px 12px; transition-duration: 0.2s; font-size: 25px; background: #1a1a1a; border: 3px solid #ff6900;}
+.button a:hover {transition-duration: 0.2s; background: #0d0d0d;}
 
-.download-text {
-	color: #fff;
-}
+.cta-alioth a {margin-left: 30px; border-radius: 16px; margin-top: 2px; display: block; font-weight: bold; padding: 13px 22px; transition-duration: 0.2s; background: #1a1a1a; border: 3px solid #fad32b;}
+.cta-alioth a:hover { transition-duration: 0.2s; background: #262626;}
+.button-alioth {text-align: center;}
+.button-alioth a {border-radius: 16px; padding: 7px 12px; transition-duration: 0.2s; font-size: 25px; background: #1a1a1a; border: 3px solid #fad32b;}
+.button-alioth a:hover {transition-duration: 0.2s; background: #0d0d0d;}
 
-.a-guide-alioth {
-	color: #fad32b;
-}
+.cta-renoir a {margin-left: 30px; border-radius: 16px; margin-top: 2px; display: block; font-weight: bold; padding: 13px 22px; transition-duration: 0.2s; background: #1a1a1a; border: 3px solid #66ffff;}
+.cta-renoir a:hover {transition-duration: 0.2s; background: #262626;}
+.button-renoir {text-align: center;}
+.button-renoir a { border-radius: 16px; padding: 7px 12px; transition-duration: 0.2s; font-size: 25px; background: #1a1a1a; border: 3px solid #66ffff;}
+.button-renoir a:hover {transition-duration: 0.2s; background: #0d0d0d;}
 
-.a-guide {
-	color: #ff6900;
-}
+/* images */
+.contacts-img {width: 50%;}
+.img-guide {border-radius: 16px; width: 20%; margin-left: 2%; border: 3px solid #fff;}
+.img-guide-vertical {border-radius: 16px; width: 14%; margin-left: 2%; border: 3px solid #fff;}
+.img-guide-vertical-2 {border-radius: 16px; width: 11%; margin-left: 2%; border: 3px solid #fff;}
+.video-guide {border-radius: 16px; width: 40%; margin-left: 2%; border: 3px solid #fff;}
 
-.hr-mobile {
-	display: none;
-	background-color: #1a1a1a;
-	border: 2px solid #333333;
-}
-
-.hr-menu {
-	margin: 0px 20px;
-	background-color: #1a1a1a;
-	border: 2px solid #333333;
-}
-
-/*elements*/
-.img-guide {
-	border-radius: 16px;
-	width: 20%;
-	margin-left: 2%;
-	border: 3px solid #fff;
-}
-
-.img-guide-vertical {
-	border-radius: 16px;
-	width: 14%;
-	margin-left: 2%;
-	border: 3px solid #fff;
-}
-
-.img-guide-vertical-2 {
-	border-radius: 16px;
-	width: 11%;
-	margin-left: 2%;
-	border: 3px solid #fff;
-}
-
-.video-guide {
-	border-radius: 16px;
-	width: 40%;
-	margin-left: 2%;
-	border: 3px solid #fff;
-}
-
-.guide-text {
-	font-family: 'Secular One', sans-serif;
-	padding: 2%;
-	font-size: 20px;
-	line-height: 25px;
-	letter-spacing: 0.5px;
-}
-
-.contacts-img {
-	width: 50%;
-}
-
-.introduction {
-	transition-duration: 0.2s;
-	font-family: 'Secular One', sans-serif;
-	font-size: 30px;
-	text-align: center;
-	letter-spacing: 1px;
-	line-height: 60px;
-	color: #fff;
-}
-
-.title {
-	text-align: center;
-	font-weight: bold;
-	font-family: 'Secular One', sans-serif;
-	letter-spacing: 1px;
-	font-size: 25px;
-	padding: 10px;
-	line-height: 30px;
-}
-
-.text-description {
-	font-size: 18px;
-	line-height: 20px;
-	margin-top: 10px;
-}
-
-.download-rom {
-	font-size: 20px;
-	margin: 10px;
-}
-
-/*scrollbar*/
-::-webkit-scrollbar {
-	width: 8px;
-}
-
-::-webkit-scrollbar-button {
-	display: none;
-}
-
-::-webkit-scrollbar-track {
-	background: #404040;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #1a1a1a;
-}
-
-/* ----- HEADER ----- */
-.header {
-	transition-duration: 0.2s;
-	width: 100%;
-	display: flex;
-	position: fixed;
-	text-align: right;
-	padding: 18px;
-	z-index: 1;
-	background: #0d0d0d;
-	border: 3px solid #333333;
-}
-
-.logo img {
-	margin-top: 8px;
-	height: 35px;
-}
-
-.logo-devices img {
-	margin-top: 11px;
-	height: 30px;
-}
-
-/* --- MENU --- */
-.menu {
-	width: 100%;
-	z-index: 0;
-	transition: all 0.3s cubic-bezier(.315, .61, .255, 1);
-}
-
-.menu li {
-	display: inline-block;
-	margin: 0px 15px;
-	margin-top: 1px;
-}
-
-.menu li a {
-	font-weight: bold;
-	border-radius: 16px;
-	padding: 16px 20px;
-	display: block;
-	transition-duration: 0.2s;
-	color: #fff;
-}
-
-.menu li a:hover {
-	transition-duration: 0.2s;
-	background: #333333;
-}
-
-.menu-hover {
-	border-radius: 16px;
-	background: #333333;
-}
-
-.hamburger {
-	display: block;
-}
-
-.contacts-mobile {
-	display: none;
-}
-
-.menu-mobile {
-	display: none;
-}
-
-/* ----- BUTTON ----- */
-/*contacts-menu*/
-.cta a {
-	margin-left: 30px;
-	border-radius: 16px;
-	margin-top: 2px;
-	display: block;
-	font-weight: bold;
-	padding: 13px 22px;
-	transition-duration: 0.2s;
-	background: #1a1a1a;
-	border: 3px solid #ff6900;
-}
-
-.cta a:hover {
-	transition-duration: 0.2s;
-}
-
-.cta-alioth a {
-	margin-left: 30px;
-	border-radius: 16px;
-	margin-top: 2px;
-	display: block;
-	font-weight: bold;
-	padding: 13px 22px;
-	transition-duration: 0.2s;
-	background: #1a1a1a;
-	border: 3px solid #fad32b;
-}
-
-.cta-alioth a:hover {
-	transition-duration: 0.2s;
-	background: #262626;
-	background: #262626;
-}
-
-.button {
-	text-align: center;
-}
-
-.button-alioth {
-	text-align: center;
-}
-
-.button a {
-	border-radius: 16px;
-	padding: 7px 12px;
-	transition-duration: 0.2s;
-	font-size: 25px;
-	background: #1a1a1a;
-	border: 3px solid #ff6900;
-}
-
-.button-alioth a {
-	border-radius: 16px;
-	padding: 7px 12px;
-	transition-duration: 0.2s;
-	font-size: 25px;
-	background: #1a1a1a;
-	border: 3px solid #fad32b;
-}
-
-.button a:hover {
-	transition-duration: 0.2s;
-	background: #0d0d0d;
-}
-
-.button-alioth a:hover {
-	transition-duration: 0.2s;
-	background: #0d0d0d;
-}
+/* HEADER */
+.header {transition-duration: 0.2s; width: 100%; display: flex; position: fixed; text-align: right; padding: 18px; z-index: 1; background: #0d0d0d; border: 3px solid #333333;}
+.logo img {margin-top: 8px; height: 35px;}
+.logo-devices img {margin-top: 11px; height: 30px;}
+.menu {width: 100%; z-index: 0; transition: all 0.3s cubic-bezier(.315, .61, .255, 1);}
+.menu li {display: inline-block; margin: 0px 15px; margin-top: 1px;}
+.menu li a {font-weight: bold; border-radius: 16px; padding: 16px 20px; display: block; transition-duration: 0.2s; color: #fff;}
+.menu li a:hover {transition-duration: 0.2s; background: #333333;}
+.menu-hover {border-radius: 16px; background: #333333;}
+.hamburger {display: block;}
+.contacts-mobile {display: none;}
+.menu-mobile {display: none;}
 
 /* ----- GROUP ----- */
 .group-home-1 {
@@ -477,7 +260,7 @@ hr {
 
 .devices-flex img {
 	transition-duration: 0.2s;
-	width: 320px;
+	width: 315px;
 }
 
 /* -- spec devices -- */
@@ -543,7 +326,8 @@ label {
 	font-variant: small-caps;
 	display: block;
 	border-radius: 16px;
-	background: #262626; color: #fff;
+	background: #262626;
+	color: #fff;
 }
 
 .menu-devices-xiaomi span::after {
@@ -559,7 +343,7 @@ label {
 }
 
 #touch-xiaomi:checked+.slide-xiaomi {
-	height: 70px;
+	height: 160px;
 }
 
 /*xiaomi-mobile*/
@@ -623,7 +407,7 @@ label {
 }
 
 #touch-xiaomi-mobile:checked+.slide-xiaomi-mobile {
-	height: 70px;
+	height: 160px;
 }
 
 /*redmi-desktop*/
@@ -1341,6 +1125,11 @@ label {
 		font-size: 18px;
 	}
 
+	.button-renoir a {
+		padding: 5px 10px;
+		font-size: 18px;
+	}
+
 	.group-flex-main-menu {
 		flex-basis: 30%;
 	}
@@ -1415,6 +1204,10 @@ label {
 		display: none;
 	}
 
+	.cta-renoir {
+		display: none;
+	}
+
 	a {
 		cursor: none;
 	}
@@ -1480,6 +1273,11 @@ label {
 
 	.group-2-flex-50 {
 		flex-basis: 100%
+	}
+
+	.group-2-flex-50-rom {
+		transition-duration: 0.2s;
+		padding: 20px;
 	}
 
 	.group-flex-content {
